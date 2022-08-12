@@ -2,7 +2,7 @@ import {NavLink} from "react-router-dom";
 
 export default function NavHeader() {
 	return (
-		<ul className="w-full flex flex-warp text-sm gap-3 justify-center lg:justify-start lg:text-xl font-medium">
+		<ul className="w-full flex flex-warp text-sm gap-3 justify-center lg:justify-start lg:text-lg font-medium">
 			<NavLink className={({isActive}) => (isActive ? "nav-active" : undefined)} to={"/"}>
 				TENTANG
 			</NavLink>

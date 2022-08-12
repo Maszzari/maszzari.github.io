@@ -7,8 +7,8 @@ export default function Project() {
 			<div className="container overflow-x-hidden">
 				<TransitionPage>
 					<div className="w-full text-center">
-						<h2 className="text-lg font-semibold lg:text-3xl">Projek</h2>
-						<p className="text-sm lg:text-xl mt-2 text-slate-500">Projek yang telah saya buat, terakhir update 3 Agustus 2022</p>
+						<h2 className="text-lg font-semibold lg:text-2xl">Projek</h2>
+						<p className="text-sm lg:text-base mt-2 text-slate-500">Projek yang telah saya buat, terakhir update 3 Agustus 2022</p>
 					</div>
 					<ProjectItems />
 				</TransitionPage>

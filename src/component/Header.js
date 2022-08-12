@@ -13,7 +13,7 @@ export default function HeaderComp() {
 	return (
 		<header className={`w-full`}>
 			<div className="container">
-				<MySosmed size={'text-xl'}/>
+				<MySosmed size={'text-lg'}/>
 				<ProfileHeader />
 			</div>
 		</header>
